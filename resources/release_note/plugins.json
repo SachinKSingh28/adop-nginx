@@ -69,6 +69,16 @@
                         "img": "img/phpldapadmin.png",
                         "description": "Browser to manage your LDAP server",
                         "link": "/ldap-phpadmin/"
+                    },
+                    {
+                        "id": "hygieia",
+                        "title": "Hygieia",
+                        "img": "img/hygieia.png",
+                        "description": "Universal dashboard",
+                        "linkCreate": {
+                            "host": "hygieia-ui",
+                            "endPath": "/"
+                        }
                     }
                 ]
             }
